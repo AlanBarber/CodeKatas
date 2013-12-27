@@ -67,6 +67,25 @@ Kata List
     * "One Pair" - one set of two cards of same rank.
     * (High Card) - return highest ranking card in hand.
 
+ 1. Look and Say Sequence
+
+    Modify the CalculateNextSequence() function to calculate the next member of a given inputed look and say sequence
+
+    A look and say sequence is sequence of a integers where the next seqence is formed by counting the number of grouped digits in the previous sequence.
+
+    For example, starting at "1" you read as "one number 1" and write it as "11". "11" is read as "two number 1s" and written as "21". "21" is read as "one number 2 and one number 1" and written as "1211".
+
+ 1. Mortgage Calculator - Part 1
+
+    Modify the CalculatePurchasePrice() function to calculate the largest purchase price a person could afford given input of term (years), interest rate, monthly payment, and down payment.
+
+ 1. Mortgage Calculator - Part 2
+
+    Modify the CalculateMonthlyPayment() function to calculate the monthly payment for a person given inputs of purchase price, down payment, term (years), and interest rate.
+
+ 1. Mortgage Calculator - Part 3
+
+    Modify the CalculateDownPayment() function to calculate the required down payment for a person given inputs of purchase price, term (years), interest rate, and monthly payment.
 
  1. Sudoku Solver
 
