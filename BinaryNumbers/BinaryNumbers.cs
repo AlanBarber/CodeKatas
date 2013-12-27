@@ -9,7 +9,7 @@ namespace BinaryNumbers
             throw new NotImplementedException();
         }
 
-        public int BinaryToString(string s)
+        public int BinaryToInteger(string s)
         {
             throw new NotImplementedException();
         }
