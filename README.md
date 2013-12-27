@@ -5,6 +5,8 @@ CodeKatas
 
 This is a set of coding katas modified and adjusted to be used in an object orientated method with unit tests that validate your results
 
+The tests are already written and base classes with functions are created so all you need to do is start writting code to solve the problems and make the tests pass.
+
 Kata List
 ---------
 
@@ -89,6 +91,15 @@ Kata List
 
  1. Sudoku Solver
 
+Contributions
+-------------
+
+Contributions are welcome, please feel free to fork this project and submit any pull requests to add or modify the katas to improve the project.
+
+Future Ideas
+------------
+
+Currently this project only uses the built in mstest framework. It might be nice to add nunit and mspec versions of test projectgs for each kata.
 
 License
 -------
