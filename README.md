@@ -11,14 +11,62 @@ Kata List
 ---------
 
  1. FizzBuzz
-
+    
     Modify the Check() function in FizzBuzz project so that given any integer value will return one of the 4 string values:
-
     * The input number as a string
     * Fizz if the value is divisible by three
     * Buzz if the value is divisible by five
     * FizzBuzz if the value is divisible by both three and five
-    
+
+ 1. Reverse String
+
+    Modify the Reverse() function in the ReverseString project to return a string that is the reverse of the inputed string value
+
+	Example:
+	* An input value "Hello, World!" should return as "!dlroW ,olleH". 
+
+ 1. Count Words
+
+    Modify the Count() function in the CountWords project to return a count of words in a string.
+	
+	A word is defined as any group of one or more alphanumeric characters seperated by a space.
+
+	Example:
+	* An input value of "Hello, World!" should return 2.
+
+ 1. Palindrome Checker
+
+    Modify the IsPalindrome() function
+
+ 1. Pi Calculator - Part 1
+
+    Modify the GetPi() function to return Pi to the given number of digits
+
+ 1. Pi Calculator - Part 2
+
+    Modify the GetPiDigit() function to return a single specified digit of Pi
+
+ 1. Prime Numbers
+
+    Modify the GetNextPrimeNumber() function to return the next prime number
+
+ 1. Change Return
+
+    Modify the GetChange() function to accept for input a total cost and total paid that returns a sorted array of the bills and coins to give as change
+
+	Valid Change:
+	* 100 Dollar Bill
+	* 50 Dollar Bill
+	* 20 Dollar Bill
+	* 10 Dollar Bill
+	* 5 Dollar Bill
+	* 1 Dollar Bill
+	* Half Dollar (50 cent)
+	* Quarter (25 cents)
+	* Dime (10 cents)
+	* Nickel (5 cents)
+	* Cent (1 cent)
+
  1. Binary Numbers - Part 1
 
     Modify the IntegerToBinary() function
@@ -39,8 +87,7 @@ Kata List
 
     Modify the EnglishToPigLatin() function
 
-    Rules
-
+    Rules:
     * Words that begin with a vowel (a, e, i, o, u) should have "way" appended to the end of the word.
     * Words that begin with consonant have all consonant letters up the first vowel moved to the end of the word and append "ay" to the end
 
@@ -57,7 +104,6 @@ Kata List
  1. Poker Hand Ranking
 
     Modify the RankHand() function to return the following strings that indicate the highest level of the hand:
-
     * "Royal Flush" - Special version of straight flush with A, K, Q, J, 10
     * "Straight Flush" - Five cards in sequence of the same suit.
     * "Four of a Kind" - four cards of same rank.
@@ -75,7 +121,10 @@ Kata List
 
     A look and say sequence is sequence of integers where the next sequence is formed by counting the number of grouped digits in the previous sequence.
 
-    For example, starting at "1" you read as "one number 1" and write it as "11". "11" is read as "two number 1s" and written as "21". "21" is read as "one number 2 and one number 1" and written as "1211".
+    Example sequence:
+    * Starting at "1" you read as "one number 1" and write it as "11". 
+    * "11" is read as "two number 1s" and written as "21". 
+    * "21" is read as "one number 2 and one number 1" and written as "1211".
 
  1. Mortgage Calculator - Part 1
 
@@ -95,6 +144,14 @@ Contributions
 -------------
 
 Contributions are welcome, please feel free to fork this project and submit any pull requests to add or modify the katas to improve the project.
+
+Here are ways you can help:
+
+ * Create a new kata and matching unit test
+ * Add more unit tests for existing katas. Ideally we would like a min of 6 tests but the more there are
+ * Improve the documentation in the readme; grammar/spell check, make instructions more clear, etc
+ * Add documentation to code files
+ * Refactor existing code files to follow best practices
 
 Future Ideas
 ------------

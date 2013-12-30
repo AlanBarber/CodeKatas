@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace MortgageCalculator.Tests
+namespace PalindromeChecker.Tests
 {
     [TestClass]
-    public class MortgageCalculatorTests
+    public class PalindromeCheckerTests
     {
         [TestMethod]
         public void TestMethod1()

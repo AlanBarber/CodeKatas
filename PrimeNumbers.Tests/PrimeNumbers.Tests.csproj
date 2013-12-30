@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2BDC9BC2-2CDD-46BD-9DA8-FAB27F1484EB}</ProjectGuid>
+    <ProjectGuid>{1F04E256-A1DC-42CE-A0BC-28B9287F22C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MortgageCalculator.Tests</RootNamespace>
-    <AssemblyName>MortgageCalculator.Tests</AssemblyName>
+    <RootNamespace>PrimeNumbers.Tests</RootNamespace>
+    <AssemblyName>PrimeNumbers.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -50,15 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MortgageCalculatorTestsPart2.cs" />
-    <Compile Include="MortgageCalculatorTestsPart3.cs" />
-    <Compile Include="MortgageCalculatorTestsPart1.cs" />
+    <Compile Include="PrimeNumbersTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MortgageCalculator\MortgageCalculator.csproj">
-      <Project>{fd14661a-f55b-4e46-9c05-ad2c91a20f09}</Project>
-      <Name>MortgageCalculator</Name>
+    <ProjectReference Include="..\PrimeNumbers\PrimeNumbers.csproj">
+      <Project>{55914f25-ba45-4eee-9e31-3ee2ca1725c4}</Project>
+      <Name>PrimeNumbers</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
