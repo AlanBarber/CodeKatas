@@ -53,6 +53,12 @@
     <Compile Include="PalindromeCheckerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PalindromeChecker\PalindromeChecker.csproj">
+      <Project>{52542219-dc08-4965-8773-fe5365a5f795}</Project>
+      <Name>PalindromeChecker</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

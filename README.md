@@ -36,7 +36,7 @@ Kata List
 
  1. Palindrome Checker
 
-    Modify the IsPalindrome() function
+    Modify the IsPalindrome() function in the PalindromeChecker project
 
  1. Pi Calculator - Part 1
 
@@ -77,7 +77,16 @@ Kata List
 
  1. Roman Numerals - Part 1
 
-    Modify the ArabicToRomanNumeral() function in the RomanNumerals project so that given any integer value between 1 and 5000, it returns a valid roman numeral.
+    Modify the ArabicToRomanNumeral() function in the RomanNumerals project so that given any integer value between 1 and 4999, it returns a valid roman numeral.
+
+	Roman Numeral List:
+    * I - 1
+    * V - 5
+    * X - 10
+    * L - 50
+    * C - 100
+    * D - 500
+    * M - 1000
 
  1. Roman Numerals - Part 2
 

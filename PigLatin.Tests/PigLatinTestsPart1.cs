@@ -21,8 +21,17 @@ namespace PigLatin.Tests
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void PigLatin_returns_ellohay_for_input_hello()
         {
+            var result = pigLatin.EnglishToPigLatin("hello");
+            Assert.AreEqual("ellohay", result);
+        }
+
+        [TestMethod]
+        public void PigLatin_returns_iway_for_input_i()
+        {
+            var result = pigLatin.EnglishToPigLatin("i");
+            Assert.AreEqual("iway", result);
         }
     }
 }
