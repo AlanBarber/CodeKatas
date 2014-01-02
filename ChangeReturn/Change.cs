@@ -2,7 +2,7 @@
 {
     public class Change
     {
-        int Number { get; set; }
-        string Denomination { get; set; }
+        public int Number { get; set; }
+        public Denomination Denomination { get; set; }
     }
 }

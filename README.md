@@ -29,7 +29,7 @@ Kata List
 
     Modify the Count() function in the CountWords project to return a count of words in a string.
 	
-	A word is defined as any group of one or more alphanumeric characters seperated by a space.
+	A word is defined as any group of one or more alphanumeric characters separated by a space.
 
 	Example:
 	* An input value of "Hello, World!" should return 2.
@@ -147,6 +147,22 @@ Kata List
 
     Modify the CalculateDownPayment() function to calculate the required down payment for a person given inputs of purchase price, term (years), interest rate, and monthly payment.
 
+ 1. Caesar Cipher - Part 1
+
+	Modify the Encode() function in the CaesarCipher project to encode a string of text using the Caesar Shift Cipher with a provided shift level.
+
+	The Caesar Cipher is is a simple alphabit shift cipher in which each letter is replaced with a 
+
+	Example for a 4 shifted cipher:
+	* A shifted 4 becomes E
+	* B shifted 4 becomes F
+	
+	So as a result you replace every instance of A with E and B with F.
+
+ 1. Caesar Cipher - Part 2
+
+	Modify the Decode() function in the CaesarCipher project to decode an already encoded string of text back into english with a provided shift level.
+
  1. Sudoku Solver
 
 Contributions
@@ -166,6 +182,8 @@ Future Ideas
 ------------
 
 Currently this project only uses the built-in mstest framework. It might be nice to add nunit and mspec versions of test projects for each kata.
+
+Although this project is designed around unit testing it might be nice to create a demo app that makes use of all the Katas to provide some sort of "real world" example of how the code could be used.
 
 License
 -------
