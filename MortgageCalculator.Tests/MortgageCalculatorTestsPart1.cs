@@ -21,8 +21,10 @@ namespace MortgageCalculator.Tests
         }
         
         [TestMethod]
-        public void TestMethod1()
+        public void MortgageCalculator_CalculatePurchasePrice_1()
         {
+            var result = mortgageCalculator.CalculatePurchasePrice(1, 1, 1, 1);
+            Assert.AreEqual(12.95, result);
         }
     }
 }

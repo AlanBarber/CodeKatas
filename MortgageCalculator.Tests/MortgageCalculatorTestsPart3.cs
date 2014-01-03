@@ -21,8 +21,10 @@ namespace MortgageCalculator.Tests
         }
         
         [TestMethod]
-        public void TestMethod1()
+        public void MortgageCalculator_CalculateDownPayment_1()
         {
+            var result = mortgageCalculator.CalculateDownPayment(1, 0, 12, 1);
+            Assert.AreEqual(0, result);
         }
     }
 }

@@ -21,8 +21,10 @@ namespace PiCalculator.Tests
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void PiCalculator_GetPi_returns_314_for_input_2()
         {
+            var result = piCalculator.GetPi(2);
+            Assert.AreEqual("3.14", result);
         }
     }
 }

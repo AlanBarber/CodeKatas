@@ -30,7 +30,7 @@ namespace ChangeReturn.Tests
         }
 
         [TestMethod]
-        public void ChangeReturn_returns_x()
+        public void ChangeReturn_returns_three_dollars_and_a_nickel()
         {
             var expected = new List<Change>
             {
@@ -67,7 +67,7 @@ namespace ChangeReturn.Tests
         }
 
         [TestMethod]
-        public void ChangeReturn_returns_xx()
+        public void ChangeReturn_returns_one_dime_and_one_nickel()
         {
             var expected = new List<Change>
             {

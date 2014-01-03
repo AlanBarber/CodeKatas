@@ -19,10 +19,19 @@ namespace PigLatin.Tests
         {
             pigLatin = null;
         }
-        
+
         [TestMethod]
-        public void TestMethod1()
+        public void PigLatin_returns_hello_for_input_ellohay()
         {
+            var result = pigLatin.PigLatinToEnglish("ellohay");
+            Assert.AreEqual("hello", result);
+        }
+
+        [TestMethod]
+        public void PigLatin_returns_i_for_input_iway()
+        {
+            var result = pigLatin.PigLatinToEnglish("iway");
+            Assert.AreEqual("i", result);
         }
     }
 }

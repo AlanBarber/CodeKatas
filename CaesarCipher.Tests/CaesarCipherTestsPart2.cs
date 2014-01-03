@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CaesarCipher.Tests
 {
     [TestClass]
-    public class CaesarCipherTests
+    public class CaesarCipherTestsPart2
     {
         private CaesarCipher caesarCipher;
 
@@ -21,8 +21,17 @@ namespace CaesarCipher.Tests
         }  
 
         [TestMethod]
-        public void TestMethod1()
+        public void CaesarCipher_decodes_hello_world_with_4_shift()
         {
+            var result = caesarCipher.Encode("Lipps, Asvph!", 4);
+            Assert.AreEqual("Hello, World!", result);
+        }
+
+        [TestMethod]
+        public void CaesarCipher_dncode_does_not_alter_numbers()
+        {
+            var result = caesarCipher.Encode("BCD123", 1);
+            Assert.AreEqual("ABC123", result);
         }
     }
 }

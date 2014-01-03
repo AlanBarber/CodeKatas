@@ -107,7 +107,7 @@ namespace RomanNumerals.Tests
         [TestMethod]
         public void RomanNumerals_returns_MCMXCIX_for_input_1999()
         {
-            var result = romanNumerals.ArabicToRomanNumeral(1990);
+            var result = romanNumerals.ArabicToRomanNumeral(1999);
             Assert.AreEqual("MCMXCIX", result);
         }
 

@@ -21,8 +21,10 @@ namespace PiCalculator.Tests
         }
 
         [TestMethod]
-        public void TestMethod1()
+        public void PiCalculator_GetPiDigit_returns_1_for_input_1()
         {
+            var result = piCalculator.GetPiDigit(1);
+            Assert.AreEqual(1, result);
         }
     }
 }
