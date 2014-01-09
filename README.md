@@ -36,19 +36,30 @@ Kata List
 
  1. Palindrome Checker
 
-    Modify the IsPalindrome() function in the PalindromeChecker project
+    Modify the IsPalindrome() function in the PalindromeChecker project to return a boolean (true/false) to indicate if the inputed string is a palindrome.
+
+    Example:
+    * "ABBA" is a palindrome
+    * "ABAB" is not a palindrome
 
  1. Pi Calculator - Part 1
 
-    Modify the GetPi() function to return Pi to the given number of digits
+    Modify the GetPi() function to return Pi to the given number of decimal digits
+
+	Example:
+	* An input value of "2" would return "3.14"
 
  1. Pi Calculator - Part 2
 
-    Modify the GetPiDigit() function to return a single specified digit of Pi
+    Modify the GetPiDigit() function to return a single specified decimal digit of Pi
+
+	Example:
+    * An input value of "1" would return "1"
+    * An input value of "2" would return "4"
 
  1. Prime Numbers
 
-    Modify the GetNextPrimeNumber() function to return the next prime number
+    Modify the GetNextPrimeNumber() function to return the next prime number larger than 
 
  1. Change Return
 
@@ -69,11 +80,11 @@ Kata List
 
  1. Binary Numbers - Part 1
 
-    Modify the IntegerToBinary() function
+    Modify the IntegerToBinary() function in the BinaryNumbers project to convert Decimal integer values between -2,147,483,648 to 2,147,483,647 to 32 bit binary representation of a signed integer in a string.
 
  1. Binary Numbers - Part 2
 
-    Modify the BinaryToInteger() function
+    Modify the BinaryToInteger() function in the BinaryNumbers proejct to convert a 32 bit binary representation in string format to a signed integer.
 
  1. Roman Numerals - Part 1
 

@@ -23,6 +23,8 @@ namespace PrimeNumbers.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            var result = primeNumbers.GetNextPrimeNumber(1);
+            Assert.AreEqual(0, result);
         }
     }
 }
