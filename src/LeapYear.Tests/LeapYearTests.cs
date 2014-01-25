@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace LeapYear.Tests
 {
@@ -54,6 +53,7 @@ namespace LeapYear.Tests
             bool result = leapYear.IsLeapYear(2048);
             Assert.IsTrue(result);
         }
+
         [TestMethod]
         public void LeapYear_returns_true_for_2096()
         {
@@ -102,5 +102,50 @@ namespace LeapYear.Tests
             bool result = leapYear.IsLeapYear(2050);
             Assert.IsFalse(result);
         }
+
+        /*
+        //UNCOMMENT THIS SECTION FOR EXTRA CREDIT
+        [TestMethod]
+        public void LeapYear_returns_false_for_4AD()
+        {
+            bool result = leapYear.IsLeapYear(4);
+            Assert.IsFalse(result);
+        }
+        
+        [TestMethod]
+        public void LeapYear_returns_false_for_0AD()
+        {
+            bool result = leapYear.IsLeapYear(0);
+            Assert.IsFalse(result);
+        }
+
+        [TestMethod]
+        public void LeapYear_returns_false_for_50BC()
+        {
+            bool result = leapYear.IsLeapYear(-50);
+            Assert.IsFalse(result);
+        }
+
+        [TestMethod]
+        public void LeapYear_returns_true_for_8AD()
+        {
+            bool result = leapYear.IsLeapYear(8);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void LeapYear_returns_true_for_30BC()
+        {
+            bool result = leapYear.IsLeapYear(-30);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void LeapYear_returns_true_for_45BC()
+        {
+            bool result = leapYear.IsLeapYear(-45);
+            Assert.IsTrue(result);
+        }        
+         */
     }
 }

@@ -10,7 +10,7 @@
 1. Binary Numbers
 1. Roman Numerals
 1. Pig Latin
-1. Leap Year
+1. [Leap Year](leapyear.html)
 1. Poker Hand
 1. Look and Say
 1. Mortgage Calculator

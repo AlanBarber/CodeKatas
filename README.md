@@ -115,11 +115,8 @@ Kata List
 
     Modify the PigLatinToEnglish() function
 
- 1. Leap Year
+ 1. [Leap Year](docs/Leapyear.html)
 
-    Modify the IsLeapYear() function
-
-    A leap year is one that is divisible by 4, but not divisible by 100 unless it is also divisible by 400.
 
  1. Poker Hand Ranking
 
