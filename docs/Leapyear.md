@@ -12,9 +12,7 @@ A leap year is:
 
 1. divisible by 4
 
-2. not divisible by 100 
-
-3. unless it is also divisible by 400.
+2. not divisible by 100, unless it is also divisible by 400.
 
 ##Test Cases ##
 
