@@ -111,7 +111,7 @@ Kata List
     * Words that begin with a vowel (a, e, i, o, u) should have "way" appended to the end of the word.
     * Words that begin with consonant have all consonant letters up the first vowel moved to the end of the word and append "ay" to the end
 
- 1. [Pig Latin - Part 2](docs/Piglatin.md)
+ 1. [Pig Latin - Part 2](docs/Piglatin.md#kata-pig-latin-ii)
 
     Modify the PigLatinToEnglish() function
 
