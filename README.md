@@ -103,7 +103,7 @@ Kata List
 
     Modify the RomanNumeralToArabic() function in the RomanNumerals project so that given a valid roman numeral , it  returns the arabic number.
 
- 1. Pig Latin - Part 1
+ 1. [Pig Latin - Part 1](docs/Piglatin.md)
 
     Modify the EnglishToPigLatin() function
 
@@ -111,11 +111,11 @@ Kata List
     * Words that begin with a vowel (a, e, i, o, u) should have "way" appended to the end of the word.
     * Words that begin with consonant have all consonant letters up the first vowel moved to the end of the word and append "ay" to the end
 
- 1. Pig Latin - Part 2
+ 1. [Pig Latin - Part 2](docs/Piglatin.md)
 
     Modify the PigLatinToEnglish() function
 
- 1. [Leap Year](docs/Leapyear.html)
+ 1. [Leap Year](docs/Leapyear.md)
 
 
  1. Poker Hand Ranking
