@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace PigLatin.Tests
 {
@@ -23,15 +22,39 @@ namespace PigLatin.Tests
         [TestMethod]
         public void PigLatin_returns_ellohay_for_input_hello()
         {
-            var result = pigLatin.EnglishToPigLatin("hello");
+            string result = pigLatin.EnglishToPigLatin("hello");
             Assert.AreEqual("ellohay", result);
         }
 
         [TestMethod]
         public void PigLatin_returns_iway_for_input_i()
         {
-            var result = pigLatin.EnglishToPigLatin("i");
+            string result = pigLatin.EnglishToPigLatin("i");
             Assert.AreEqual("iway", result);
         }
+
+        [TestMethod]
+        public void PigLatin_returns_oveglay_for_input_glove()
+        {
+            string result = pigLatin.EnglishToPigLatin("glove");
+            Assert.AreEqual("oveglay", result);
+        }
+
+        /* Uncomment here for Extra Credit
+        
+       [TestMethod]
+       public void PigLatin_returns_EthayIckquayOwnbrayOxfayOverwayEthayAzylayOgday_for_input_TheQuickBrownFoxJumpsOverTheLazyDog()
+       {
+           var result = pigLatin.EnglishToPigLatin("The quick, brown fox jumps over the lazy dog.");
+           Assert.AreEqual("Ethay ickquay, ownbray oxfay umpsjay overway ethay azylay ogday.", result);
+       }
+        
+       [TestMethod]
+       public void PigLatin_returns_OdecayAtaskaArewayAwayOodgayAywayOtayOnehayOuryayIllsskay_for_input_ CodeKatasAreAGoodWayToHoneYourSkills()
+       {
+           var result = pigLatin.EnglishToPigLatin("Code Katas are a good way to hone your skills.");
+           Assert.AreEqual("Odecay Ataskay areway away oodgay ayway otay onehay ouryay illsskay.",result);
+       }
+       */
     }
 }
