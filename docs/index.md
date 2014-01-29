@@ -17,6 +17,8 @@
 1. Mortgage Calculator
 1. Caesar Cipher
 1. Sudoku Solver
+1. Income Tax Calculator
+
 
 # Project Homepage #
 
