@@ -1,6 +1,6 @@
 #Kata: Leap Year #
 
-## Introduction ## 
+## Introduction ##
 
 > A leap year (or intercalary or bissextile year) is a year containing one additional day (or, in the case of lunisolar calendars, a month) in order to keep the calendar year synchronized with the astronomical or seasonal year.
 > 
