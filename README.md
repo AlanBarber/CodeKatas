@@ -172,6 +172,8 @@ Kata List
 	Modify the Decode() function in the CaesarCipher project to decode an already encoded string of text back into english with a provided shift level.
 
  1. Sudoku Solver
+ 
+ 1. [Income Tax Calculator](docs/Incometax.md)
 
 Contributions
 -------------
