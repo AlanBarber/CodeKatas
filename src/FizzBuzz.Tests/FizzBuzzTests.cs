@@ -42,10 +42,38 @@ namespace FizzBuzz.Tests
         }
 
         [TestMethod]
+        public void FizzBuzz_returns_Fizz_for_input_6()
+        {
+            string result = fizzBuzz.Check(6);
+            Assert.AreEqual("Fizz", result);
+        }
+
+        [TestMethod]
+        public void FizzBuzz_returns_Buzz_for_input_10()
+        {
+            string result = fizzBuzz.Check(10);
+            Assert.AreEqual("Buzz", result); 
+        }
+
+        [TestMethod]
         public void FizzBuzz_returns_FizzBuzz_for_input_15()
         {
             string result = fizzBuzz.Check(15);
             Assert.AreEqual("FizzBuzz", result);
+        }
+
+        [TestMethod]
+        public void FizzBuzz_returns_FizzBuzz_for_input_30()
+        {
+            string result = fizzBuzz.Check(30);
+            Assert.AreEqual("FizzBuzz", result);
+        }
+
+        [TestMethod]
+        public void FizzBuzz_returns_64_for_input_64()
+        {
+            string result = fizzBuzz.Check(64);
+            Assert.AreEqual("64", result);
         }
     }
 }

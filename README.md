@@ -10,13 +10,7 @@ The tests are already written and base classes with functions are created so all
 Kata List
 ---------
 
- 1. FizzBuzz
-    
-    Modify the Check() function in FizzBuzz project so that given any integer value will return one of the 4 string values:
-    * The input number as a string
-    * Fizz if the value is divisible by three
-    * Buzz if the value is divisible by five
-    * FizzBuzz if the value is divisible by both three and five
+ 1. [FizzBuzz](docs/fizzbuzz.md)
 
  1. Reverse String
 
