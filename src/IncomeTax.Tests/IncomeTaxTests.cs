@@ -23,7 +23,7 @@ namespace IncomeTax.Tests
         public void No_Income_Returns_0()
         {
             int result = _incomeTax.CalculateTax(0);
-            Assert.AreEqual(result, 0);
+            Assert.AreEqual(0, result);
         }
 
         [TestMethod]
@@ -37,21 +37,21 @@ namespace IncomeTax.Tests
         public void Income_Of_10000_Returns_1085()
         {
             int result = _incomeTax.CalculateTax(10000);
-            Assert.AreEqual(result, 1085);
+            Assert.AreEqual(1085, result);
         }
 
         [TestMethod]
         public void Income_Of_20000_Returns_2554()
         {
             int result = _incomeTax.CalculateTax(20000);
-            Assert.AreEqual(result, 2554);
+            Assert.AreEqual(2554, result);
         }
 
         [TestMethod]
         public void Income_Of_450000_Returns_135964()
         {
             int result = _incomeTax.CalculateTax(450000);
-            Assert.AreEqual(result, 135964);
+            Assert.AreEqual(135964, result);
         }
     }
 }
