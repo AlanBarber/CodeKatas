@@ -1,7 +1,7 @@
 # Kata List #
 
 1. [Fizz Buzz](fizzbuzz.html)
-1. Reverse String
+1. [Reverse String](reversestring.html)
 1. Count Words
 1. Palindrome Checker
 1. Pi Calculator
