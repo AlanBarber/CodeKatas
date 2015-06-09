@@ -1,4 +1,4 @@
-adesfCodeKatas
+CodeKatas
 =========
 
 .Net Code Katas
