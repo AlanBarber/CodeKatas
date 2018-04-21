@@ -30,8 +30,8 @@ Tax is only owed in whole dollar amounts. The final result should round to the n
 1. `No_Income_Returns_0()`
 1. `Negative_Income_Returns_0()`
 1. `Income_Of_10000_Returns_1085()`
-1. `Income_Of_20000_Returns_2554()`
-1. `Income_Of_450000_Returns_135964()`
+1. `Income_Of_20000_Returns_2585()`
+1. `Income_Of_450000_Returns_123149()`
 
 ## Extra Credit 
 
