@@ -10,7 +10,7 @@ The tests are already written and base classes with functions are created so all
 Kata List
 ---------
 
- 1. [FizzBuzz](docs/fizzbuzz.md)
+ 1. [FizzBuzz](docs/Fizzbuzz.md)
 
  1. Reverse String
 
